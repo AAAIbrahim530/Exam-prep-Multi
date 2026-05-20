@@ -19,6 +19,10 @@ class MainActivity : AppCompatActivity() {
         val buttonCalc = findViewById<Button>(R.id.btnCalc)
         val answer = findViewById<TextView>(R.id.txtResult)
 
+        numberOne = editNum.text
+        numTwo = editNum2.text
+        buttonCalc = btnCalc.text
+        
 
 
         setContentView(R.layout.activity_main)
